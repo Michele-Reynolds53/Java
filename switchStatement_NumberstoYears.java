@@ -56,6 +56,7 @@ public class DogYears {
          case 10:
             System.out.println("That's 62 human years.");
             break;
+            
          default:
             System.out.println("Human years unknown.");
             break;
