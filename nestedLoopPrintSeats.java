@@ -12,9 +12,16 @@ public class NestedLoops {
       numColumns = scnr.nextInt();
      
       
+       //Loop through each row up to the number of rows
       for (currentRow = 1; currentRow <= numRows; currentRow++) {
-         for (currentColumn = 1; currentColumn <= numColumns; currentColumn++) { 	                			
+         
+         //Loop through each column up to the number of columns entered
+         for (currentColumn = 1; currentColumn <= numColumns; currentColumn++) { 
+            
+            //add letters to seating based on the current column
             currentColumnLetter = (char) ('A' + currentColumn - 1);
+            
+            //Print seating 
             System.out.print(currentRow + String.valueOf(currentColumnLetter) + " ");
          }
       }
